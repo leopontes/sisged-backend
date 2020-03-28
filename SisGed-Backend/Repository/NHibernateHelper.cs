@@ -33,11 +33,11 @@ namespace SisGed_Backend.Repository
         */
 
             Console.WriteLine("::::::::: Variaveis de ambiente ::::::::");
-            Console.WriteLine(System.Environment.GetEnvironmentVariable("USR", EnvironmentVariableTarget.Machine));
-            Console.WriteLine(System.Environment.GetEnvironmentVariable("PASSWORD", EnvironmentVariableTarget.Machine));
-            Console.WriteLine(System.Environment.GetEnvironmentVariable("HOST", EnvironmentVariableTarget.Machine));
-            Console.WriteLine(System.Environment.GetEnvironmentVariable("PORT", EnvironmentVariableTarget.Machine));
-            Console.WriteLine(System.Environment.GetEnvironmentVariable("DB", EnvironmentVariableTarget.Machine));
+            Console.WriteLine(System.Environment.GetEnvironmentVariable("USR"));
+            Console.WriteLine(System.Environment.GetEnvironmentVariable("PASSWORD"));
+            Console.WriteLine(System.Environment.GetEnvironmentVariable("HOST"));
+            Console.WriteLine(System.Environment.GetEnvironmentVariable("PORT"));
+            Console.WriteLine(System.Environment.GetEnvironmentVariable("DB"));
             Console.WriteLine("::::::::: Variaveis de ambiente ::::::::");
 
             ISessionFactory sessionFactory = Fluently
@@ -45,11 +45,11 @@ namespace SisGed_Backend.Repository
              .Database(
                 PostgreSQLConfiguration.Standard.ConnectionString(conn=>
                     conn
-                        .Username(System.Environment.GetEnvironmentVariable("USR", EnvironmentVariableTarget.Machine))
-                        .Password(System.Environment.GetEnvironmentVariable("PASSWORD", EnvironmentVariableTarget.Machine))
-                        .Host(System.Environment.GetEnvironmentVariable("HOST", EnvironmentVariableTarget.Machine))
-                        .Port(Int32.Parse(System.Environment.GetEnvironmentVariable("PORT", EnvironmentVariableTarget.Machine)))
-                        .Database(System.Environment.GetEnvironmentVariable("DB", EnvironmentVariableTarget.Machine))
+                        .Username(System.Environment.GetEnvironmentVariable("USR"))
+                        .Password(System.Environment.GetEnvironmentVariable("PASSWORD"))
+                        .Host(System.Environment.GetEnvironmentVariable("HOST"))
+                        .Port(Int32.Parse(System.Environment.GetEnvironmentVariable("PORT")))
+                        .Database(System.Environment.GetEnvironmentVariable("DB"))
               )
                 .Dialect<PostgreSQL82Dialect>().ShowSql()
              )
