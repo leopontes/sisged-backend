@@ -33,11 +33,11 @@ namespace SisGed_Backend.Repository
         */
 
             Console.WriteLine("::::::::: Variaveis de ambiente ::::::::");
-            Console.WriteLine(System.Environment.GetEnvironmentVariable("USR"));
-            Console.WriteLine(System.Environment.GetEnvironmentVariable("PASSWORD"));
-            Console.WriteLine(System.Environment.GetEnvironmentVariable("HOST"));
-            Console.WriteLine(System.Environment.GetEnvironmentVariable("PORT"));
-            Console.WriteLine(System.Environment.GetEnvironmentVariable("DB"));
+            Console.WriteLine("DB_USER:" + System.Environment.GetEnvironmentVariable("DB_USR"));
+            Console.WriteLine("DB_HOST:" + System.Environment.GetEnvironmentVariable("DB_HOST"));
+            Console.WriteLine("DB_PWD:" + System.Environment.GetEnvironmentVariable("DB_PWD"));
+            Console.WriteLine("DB_PORT:" + System.Environment.GetEnvironmentVariable("DB_PORT"));
+            Console.WriteLine("DB_NAME:" + System.Environment.GetEnvironmentVariable("DB_NAME"));
             Console.WriteLine("::::::::: Variaveis de ambiente ::::::::");
 
             ISessionFactory sessionFactory = Fluently
@@ -45,11 +45,11 @@ namespace SisGed_Backend.Repository
              .Database(
                 PostgreSQLConfiguration.Standard.ConnectionString(conn=>
                     conn
-                        .Username(System.Environment.GetEnvironmentVariable("USR"))
-                        .Password(System.Environment.GetEnvironmentVariable("PASSWORD"))
-                        .Host(System.Environment.GetEnvironmentVariable("HOST"))
-                        .Port(Int32.Parse(System.Environment.GetEnvironmentVariable("PORT")))
-                        .Database(System.Environment.GetEnvironmentVariable("DB"))
+                        .Username(System.Environment.GetEnvironmentVariable("DB_USR"))
+                        .Password(System.Environment.GetEnvironmentVariable("DB_PWD"))
+                        .Host(System.Environment.GetEnvironmentVariable("DB_HOST"))
+                        .Port(Int32.Parse(System.Environment.GetEnvironmentVariable("DB_PORT")))
+                        .Database(System.Environment.GetEnvironmentVariable("DB_NAME"))
               )
                 .Dialect<PostgreSQL82Dialect>().ShowSql()
              )
