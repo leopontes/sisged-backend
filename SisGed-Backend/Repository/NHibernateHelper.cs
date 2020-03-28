@@ -33,11 +33,11 @@ namespace SisGed_Backend.Repository
         */
 
             Console.WriteLine("::::::::: Variaveis de ambiente ::::::::");
-            Console.WriteLine(System.Environment.GetEnvironmentVariable("USR"));
-            Console.WriteLine(System.Environment.GetEnvironmentVariable("PASSWORD"));
-            Console.WriteLine(System.Environment.GetEnvironmentVariable("HOST"));
-            Console.WriteLine(System.Environment.GetEnvironmentVariable("PORT"));
-            Console.WriteLine(System.Environment.GetEnvironmentVariable("DB"));
+            Console.WriteLine(System.Environment.GetEnvironmentVariable("USR", EnvironmentVariableTarget.Machine));
+            Console.WriteLine(System.Environment.GetEnvironmentVariable("PASSWORD", EnvironmentVariableTarget.Machine));
+            Console.WriteLine(System.Environment.GetEnvironmentVariable("HOST", EnvironmentVariableTarget.Machine));
+            Console.WriteLine(System.Environment.GetEnvironmentVariable("PORT", EnvironmentVariableTarget.Machine));
+            Console.WriteLine(System.Environment.GetEnvironmentVariable("DB", EnvironmentVariableTarget.Machine));
             Console.WriteLine("::::::::: Variaveis de ambiente ::::::::");
 
             ISessionFactory sessionFactory = Fluently
