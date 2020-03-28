@@ -16,11 +16,12 @@ namespace SisGed_Backend.Repository
         {
             //string connectionStr = "postgresql://postgres:sucesso@2020@hostname:5432/postgres";
             var connectionStr = "Server=127.0.0.1;Port=5432;Database=postgres;User Id=postgres;Password=sucesso@2020;";
+            var connectionStrHeroku = System.Environment.GetEnvironmentVariable("DATABASE_URL");
 
             ISessionFactory sessionFactory = Fluently
              .Configure()
              .Database(
-                PostgreSQLConfiguration.Standard.ConnectionString(connectionStr)
+                PostgreSQLConfiguration.Standard.ConnectionString(connectionStrHeroku)
                 .Dialect<PostgreSQL82Dialect>().ShowSql()
              )
              .Mappings(m => m.FluentMappings.AddFromAssemblyOf<Program>())

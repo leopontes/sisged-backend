@@ -34,3 +34,44 @@
 /Users/leonardolopes/Projects/SisGed-Backend/SisGed-Backend/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
 /Users/leonardolopes/Projects/SisGed-Backend/SisGed-Backend/obj/Debug/netcoreapp3.1/SisGed-Backend.csproj.CoreCompileInputs.cache
 /Users/leonardolopes/Projects/SisGed-Backend/SisGed-Backend/obj/Debug/netcoreapp3.1/SisGed-Backend.genruntimeconfig.cache
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\SisGed-Backend.exe
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\SisGed-Backend.deps.json
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\SisGed-Backend.runtimeconfig.json
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\SisGed-Backend.runtimeconfig.dev.json
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\SisGed-Backend.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\SisGed-Backend.pdb
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\Antlr3.Runtime.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\FluentNHibernate.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\Iesi.Collections.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\NHibernate.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\Remotion.Linq.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\Remotion.Linq.EagerFetching.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\StructureMap.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\obj\Debug\netcoreapp3.1\SisGed-Backend.csprojAssemblyReference.cache
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\obj\Debug\netcoreapp3.1\SisGed-Backend.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\obj\Debug\netcoreapp3.1\SisGed-Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\obj\Debug\netcoreapp3.1\SisGed-Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\obj\Debug\netcoreapp3.1\SisGed-Backend.AssemblyInfoInputs.cache
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\obj\Debug\netcoreapp3.1\SisGed-Backend.AssemblyInfo.cs
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\obj\Debug\netcoreapp3.1\SisGed-Backend.RazorTargetAssemblyInfo.cache
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\obj\Debug\netcoreapp3.1\SisGed-Backend.csproj.CopyComplete
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\obj\Debug\netcoreapp3.1\staticwebassets\SisGed-Backend.StaticWebAssets.Manifest.cache
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\obj\Debug\netcoreapp3.1\staticwebassets\SisGed-Backend.StaticWebAssets.xml
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\obj\Debug\netcoreapp3.1\SisGed-Backend.dll
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\obj\Debug\netcoreapp3.1\SisGed-Backend.pdb
+C:\Users\Leonardo Lopes\Source\Repos\sisged-backend\SisGed-Backend\obj\Debug\netcoreapp3.1\SisGed-Backend.genruntimeconfig.cache
